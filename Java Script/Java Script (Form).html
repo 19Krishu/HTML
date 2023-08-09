@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title> Java Script </title>
+	</head>
+	<script>
+		//document.getElementById("title").innerHTML="Calculator"
+		
+		var a = document.getElementById("no1").value
+		var b = document.getElementById("no2").value
+	
+		function addition()
+		{
+			alert(parseInt(document.getElementById("no1").value)+parseInt(document.getElementById("no2").value))
+		}
+
+		function multiplication()
+		{
+			alert(parseInt(document.getElementById("no1").value)*parseInt(document.getElementById("no2").value))
+		}
+
+		function Substraction()
+		{
+			alert(parseInt(document.getElementById("no1").value)-parseInt(document.getElementById("no2").value))
+		}
+
+		function Division()
+		{
+			alert(parseInt(document.getElementById("no1").value)/parseInt(document.getElementById("no2").value))
+		}
+
+	</script>
+	<body>
+	<form>
+		<fieldset>
+			<legend> Calculator </legend>
+	<table>
+		<tr>
+			<td> <label> Enter Your First No.</label> </td>
+			<td> <input type="number" id="no1"> </td>
+		</tr>
+
+		<tr>
+			<td> <label> Enter Your Second No.</label> </td>
+			<td> <input type="number" id="no2"> </td>
+		</tr>
+
+		<tr>
+			<td><h4> Your Answer is : </h4></td>
+		</tr>
+
+		<tr>
+			<td> <button type="submit" onclick="addition()"> Addition </button> </td>
+			<td> <button type="submit" onclick="multiplication()"> Multiplication </button> </td>
+		</tr>
+
+		<tr>
+			<td> <button type="submit" onclick="Substraction()"> Substraction </button> </td>
+			<td> <button type="submit" onclick="Division()"> Division </button> </td>
+		</tr>	
+
+
+
+
+	</table>
+		</fieldset>		
+	</form>
+	</body
+</html>

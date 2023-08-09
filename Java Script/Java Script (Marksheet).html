@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title> Java Script </title>
+	</head>
+	<script>
+		//document.getElementById("title").innerHTML="Marksheet"
+		
+		var a = document.getElementById("sub1").value
+		var b = document.getElementById("sub2").value
+		var c = document.getElementById("sub3").value
+		var d = document.getElementById("sub4").value
+		var e = document.getElementById("sub5").value
+		var f = document.getElementById("sub6").value
+		var total=0;
+		var Average=0;
+	
+		function addition()
+		{
+			alert(parseInt(document.getElementById("sub1").value)+parseInt(document.getElementById("sub2").value)+parseInt(document.getElementById("sub3").value)+parseInt(document.getElementById("sub4").value)+parseInt(document.getElementById("sub5").value)+parseInt(document.getElementById("sub6").value))
+		}
+
+		funnction percentage()
+		{
+			
+		}
+		
+	</script>
+	<body>
+	<form>
+		<fieldset>
+			<legend> Marksheet </legend>
+	<table>
+		<tr>
+			<td> <label> Student Name : </label> </td>
+			<td> <input type="text" placeholder="Student Name"> </td>
+		</tr>
+
+		<tr>
+			<td> <label> Stream Name : </label> </td>
+			<td> <input type="text" placeholder="Stream Name"> </td>
+		</tr>
+
+		<tr>
+			<td> <label> Subject 1 : </label> </td>
+			<td> <input type="number" id="sub1" placeholder="Enter Your Marks"> </td>
+		</tr>
+
+		<tr>
+			<td> <label> Subject 2 : </label> </td>
+			<td> <input type="number" id="sub2" placeholder="Enter Your Marks"> </td>
+		</tr>
+
+		<tr>
+			<td> <label> Subject 3 : </label> </td>
+			<td> <input type="number" id="sub3" placeholder="Enter Your Marks"> </td>
+		</tr>
+
+		<tr>
+			<td> <label> Subject 4 : </label> </td>
+			<td> <input type="number" id="sub4" placeholder="Enter Your Marks"> </td>
+		</tr>
+
+		<tr>
+			<td> <label> Subject 5 : </label> </td>
+			<td> <input type="number" id="sub5" placeholder="Enter Your Marks"> </td>
+		</tr>
+
+		<tr>
+			<td> <label> Subject 6 : </label> </td>
+			<td> <input type="number" id="sub6" placeholder="Enter Your Marks"> </td>
+		</tr>
+		
+		<tr>
+			<td><h4> Total Marks : </h4></td>
+		</tr>
+
+		<tr>
+			<td> <button type="submit" onclick="addition()"> Addition </button> </td>
+		</tr>
+
+		<tr>
+			<td> <button type="submit" onclick="percentage()"> Percentage </button> </td>
+		</tr>
+
+	</table>
+		</fieldset>		
+	</form>
+	</body
+</html>
